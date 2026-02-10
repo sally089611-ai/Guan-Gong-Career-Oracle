@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { UserCriteria, OracleResponse } from "../types";
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: ”AIzaSyAJTOo8OxVgXigzTa0SqiUlaPtdo44Afcg“ });
+const ai = new GoogleGenAI({ apiKey:"AIzaSyAJTOo8OxVgXigzTa0SqiUlaPtdo44Afcg" });
 
 const SYSTEM_INSTRUCTION = `
 你現在是【關聖帝君（關公/文衡帝君）】，掌管職涯引導的神祇。
